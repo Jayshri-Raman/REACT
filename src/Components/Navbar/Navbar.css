@@ -1,0 +1,98 @@
+.navbar-container{
+    width: 51%;
+    height: 58px;
+    background-color: #3F0102;
+    margin-top: 8px;
+    padding: 0px 200px;
+    display: grid;
+    overflow:hidden;
+    align-content: center; 
+    
+    
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.navbar-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.burger-menu-icon{
+width: 31px;
+height: 31px;
+color: #AAAAAA;
+
+}
+.burger-menu p{
+    font-size: 20px;
+    color: #FE3B05;
+    margin-left: 13px;
+}
+.navbar ul{
+    display: flex;
+    gap: 54px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FE3B05;
+}
+.navbar ul li a{
+    color: white;
+}
+.anim-nav a{
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+.anim-nav a:before{
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+    left: 15%;
+    right: 15%;
+    top: 0;
+    bottom: 0;
+    border-left: 3px solid white;
+    border-radius: 3px solid white;
+}
+.anim-nav a:hover,
+.anim-nav .current a {
+    color: #ffffff;
+}
+
+
+.anim-nav a:hover:before,
+.anim-nav .current a:before {
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-container {
+        padding: 0px 320px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-sub-container {
+        flex-direction: column; /* Stack items vertically for smaller screens */
+        gap: 10px;
+    }
+
+    .burger-menu {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack navigation links vertically for smaller screens */
+        gap:10px;
+}
+}
