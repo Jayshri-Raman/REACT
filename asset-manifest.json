@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/REACT/static/css/main.bbf7ceb2.css",
+    "main.js": "/REACT/static/js/main.b750090d.js",
+    "static/js/787.19263875.chunk.js": "/REACT/static/js/787.19263875.chunk.js",
+    "static/media/pasta.png": "/REACT/static/media/pasta.358e5212751f44853ab4.png",
+    "static/media/wings.png": "/REACT/static/media/wings.aac4084c67ec297ff3e0.png",
+    "static/media/fry.png": "/REACT/static/media/fry.6b671c5896881e40d4a4.png",
+    "static/media/burger.png": "/REACT/static/media/burger.23a6370c6cb8f374f310.png",
+    "static/media/noodle.png": "/REACT/static/media/noodle.63e0da0467b61c2d5bb7.png",
+    "static/media/pizza.png": "/REACT/static/media/pizza.cb0d2102f7cd005e338b.png",
+    "static/media/banner.jpg": "/REACT/static/media/banner.6c502a10817f2bdfad4b.jpg",
+    "static/media/img2.png": "/REACT/static/media/img2.8fb8c3e717ffe918b70b.png",
+    "static/media/img1.png": "/REACT/static/media/img1.8c3ea896c35bc68a4df2.png",
+    "static/media/img4.png": "/REACT/static/media/img4.4cea3bc7b89eae60d27f.png",
+    "static/media/img3.png": "/REACT/static/media/img3.383baea5aebba607ccda.png",
+    "static/media/banner2.jpg": "/REACT/static/media/banner2.341c621a22961ee28561.jpg",
+    "static/media/logo.png": "/REACT/static/media/logo.da33f4780d9bf32c7afe.png",
+    "static/media/call icon.svg": "/REACT/static/media/call icon.d8ff0c2669252b0fdff064b54555e44e.svg",
+    "index.html": "/REACT/index.html",
+    "main.bbf7ceb2.css.map": "/REACT/static/css/main.bbf7ceb2.css.map",
+    "main.b750090d.js.map": "/REACT/static/js/main.b750090d.js.map",
+    "787.19263875.chunk.js.map": "/REACT/static/js/787.19263875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbf7ceb2.css",
+    "static/js/main.b750090d.js"
+  ]
+}
