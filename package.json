@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Jayshri-Raman.github.io/REACT",
   "name": "organic",
   "version": "0.1.0",
   "private": true,
@@ -7,18 +8,16 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "deploy": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "react-type-animation": "^3.2.0",
-    "run": "^1.5.0",
-    "swiper": "8.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,6 +29,10 @@
       "react-app/jest"
     ]
   },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+ },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -41,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
